@@ -1,0 +1,187 @@
+/*适应屏幕小于320px的设备*/
+@media (max-width: 319px) { 
+	.head_content{
+		width:100%;
+	}
+	.menu{
+		display:none;
+	}
+	.btn-slide-bar{
+		display:block;
+	}
+	.box{
+		width:100%;
+	}
+	.box_left{
+		width:100%;
+		height:100%;
+	}
+	.box_left_list{
+		width:96%;
+		margin:10px 2%;
+	}
+	.box_left_img{
+		width:100%;
+		height:183px;
+	}
+	.box_left_list img{
+		width:100%;
+		height:183px;
+	}
+	.box_right{
+		width:100%;
+	}
+	.box_right_top{
+		width:95%;
+	}
+}
+
+/*适应屏幕大于320px小于414px的设备*/
+@media (min-width: 320px) and (max-width: 413px) {
+	.head_content{
+		width:100%;
+	}
+	.menu{
+		display:none;
+	}
+	.btn-slide-bar{
+		display:block;
+	}
+	.box{
+		width:100%;
+	}
+	.box_left{
+		width:94%;
+		height:100%;
+		margin-left:3%;
+	}
+	.box_left_list{
+		width:100%;
+		margin:10px 0;
+	}
+	.box_left_img{
+		width:100%;
+		height:66%;
+	}
+	.box_left_list img{
+		width:100%;
+	}
+	.box_right{
+		margin-top:30px;
+		width:94%;
+		margin-right:3%;
+	}
+	.box_right_top{
+		width:95%;
+	}
+}
+
+/*适应屏幕大于414px小于768px的设备*/
+@media (min-width: 414px) and (max-width: 767px) {
+	.head_content{
+		width:100%;
+	}
+	.menu{
+		display:none;
+	}
+	.btn-slide-bar{
+		display:block;
+	}
+	.box{
+		width:100%;
+	}
+	.box_left{
+		width:84%;
+		height:100%;
+		margin-left:8%;
+	}
+	.box_left_list{
+		width:100%;
+		margin:10px 0;
+	}
+	.box_left_img{
+		width:100%;
+		height:66%;
+	}
+	.box_left_list img{
+		width:100%;
+	}
+	.box_right{
+		margin-top:30px;
+		width:84%;
+		margin-right:8%;
+	}
+	.box_right_top{
+		width:95%;
+	}
+}
+
+/*适应屏幕大于768px小于1024px的设备*/
+@media (min-width: 768px) and (max-width: 1023px) {
+	.head_content{
+		width:100%;
+	}
+	.menu{
+		display:none;
+	}
+	.btn-slide-bar{
+		display:block;
+	}
+	.box{
+		width:100%;
+	}
+	.box_left{
+		width:100%;
+		height:100%;
+	}
+	.box_left_list{
+		width:42%;
+		margin:10px 4%;
+	}
+	.box_left_img{
+		width:100%;
+		height:66%;
+	}
+	.box_left_list img{
+		width:100%;
+	}
+	.box_right{
+		margin-top:30px;
+		width:100%;
+	}
+	.box_right_top{
+		width:95%;
+	}
+}
+/*适应屏幕大于1024px小于1200px的设备*/
+@media (min-width: 1024px) and (max-width: 1250px) {
+	.head_content{
+		width:100%;
+	}
+
+	.box{
+		width:90%;
+	}
+	.box_left{
+		width:69%;
+	}
+	.box_left_list{
+		width:42%;
+		margin:10px 4%;
+	}
+	.box_left_img{
+		width:100%;
+		height:60%;
+	}
+	.box_left_list img{
+		width:100%;
+		height:100%;
+	}
+	.box_right{
+		width:29%;
+	}
+	.box_right_top{
+		width:95%;
+	}
+}
+

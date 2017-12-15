@@ -1,0 +1,170 @@
+/*预定义样式*/
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+.clear{ 
+	clear:both
+} 
+/*背景*/
+body{
+	background:#E6E0D0;
+}
+/*顶部*/
+.header{
+    top: 0;
+	width:100%;
+	background:#8DFF73;
+	z-index:0;
+}
+.header_nav{
+	background:#8DFF73;
+	margin:0 auto;
+	width:1200px;
+	height:80px;
+}
+.logo{
+	height:80px;
+}
+.logo a{
+	color:#111;
+	font-size:23px;
+	line-height:70px;
+	text-decoration:none;
+	display:inline-block;
+	height:inherit;
+}
+
+.nav{
+	height:80px;
+}
+
+.nav ul{
+	list-style:none;
+	margin:0;
+}
+.nav ul li{
+	display:inline-block;
+	line-height:80px;
+	float:right;
+	margin-right:28px;
+}
+.nav ul li a{
+	color:#111;
+	font-size:18px;
+	line-height:70px;
+	text-decoration:none;
+	display:inline-block;
+	height:inherit;
+}
+.nav ul li a:hover {
+	color:#FF9300;
+}
+
+/*END 顶部*/
+
+.box{
+	margin:30px auto;
+	width:1200px;
+	height:100%;
+}
+.box_left{
+	float:left;
+	width:760px;
+	background:#fff;
+	height:1000px;
+}
+.box_left_list{
+	border:2px solid #ccc;
+	border-radius:3px;
+	width:340px;
+	height:290px;
+	margin:10px 20px;
+	float:left;
+}
+.box_left_img{
+	width:340px;
+	height:205px;
+	overflow: hidden;
+	border-bottom:2px solid #ccc;
+}
+.box_left_list img{
+	width:340px;
+	height:205px;
+	cursor: pointer;
+	transition: all 0.8s;
+}
+.box_left_list img:hover {
+	transform: scale(1.4);
+}
+.box_left_list p{
+	padding-top:15px;
+	padding-left:5px;
+	font-size:17px;
+	color:#bbb;
+}
+.box_left_list p a{
+	color:#111;
+	text-decoration:none;
+}
+.box_left_list p a:hover {
+	color:#8DFF73;
+}
+.small_list {
+	float:right;
+	font-size:10px;
+	padding-right:10px;
+}
+.small_list i{
+	padding:0 3px;
+}
+
+/*右边*/
+.box_right{
+	float:right;
+	width:400px;
+	background:url("../image/bg.jpg") no-repeat;
+	background-size:cover;
+	height:1000px;
+}
+.box_right_top{
+	width:380px;
+	margin:0 auto;
+	height:250px;
+	background:#fff;
+}
+.box_right_top h4{
+	margin:10px 15px;
+}
+.box_right_top ul li{
+	list-style:none;
+	margin:0;
+	padding:3px 0;
+	font-size:16px;
+}
+.box_right_top ul li i{
+	padding-right:8px;
+	color:#F3726D;
+}
+.box_right_top ul li a{
+	color:#111;
+}
+.box_right_top ul li a:hover {
+	color:#8DFF73;
+}
+
+/*END 右边*/
+
+/*脚部开始*/
+.floot{
+	margin-top:30px;
+	text-align:center;
+	width:100%;
+	background:#8DFF73;
+	height:80px;
+	line-height:70px;
+}
+/*脚部结束*/
+
+
+
